@@ -92,3 +92,6 @@ address = 32 #Acá le hemos cambiado el tipo de dato.
 print(address)
 print(type(address))
 
+
+#DATOS EXTRAS: Que una variable ya sea de cierto tipo se puede cambiar su tipo porque el tipado de Python es dinamico.
+
