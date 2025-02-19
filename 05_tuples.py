@@ -6,7 +6,7 @@
 #La podemos definir con su nombre reservado tuple().
 #Es el constructor da la/s tupla.
 my_tuple = tuple() #Manera 1
-my_other_tuple = () #Manera 2
+my_other_tuple = () #Manera 2- Tiene su constructor simple que es (), forma rápida/básica para definir una tuple.
 #No hay que confundirse de que solo las tuplas() van con parentesis ya que un constructor también lleva parentesís '()'
 #Aunque a nivel sintáctico si no le metemos el constructor de clase tendríamos lista[] y tupla().
 
