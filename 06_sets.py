@@ -1,4 +1,6 @@
 #SETS:
+#Guarda elementos que no esten repetidos y es desordenado.
+
 #Un sets de base tiene un array en cambio una lista de base tenía un array pero en Python no tenemos array como tal si no listas directamente
 #Los sets serán muy parecidos a las list() y a las tuple() pero es algo muy diferente.
 
@@ -13,7 +15,7 @@ my_other_set = {} #Los set también se definen con llaves PERO al definirlo vac�
 print(type(my_set))
 print(type(my_other_set)) #Acá nos indica que efectivamente al estarlo definiendolo vacío es tipo dict
 
-my_other_set = {'Brais', 'Moure', 35} #Al colocarle datos a las llaves ya estámos indicando/definiéndolo que es un set()
+my_other_set = {'Carolina', 'Bezares', 23} #Al colocarle datos a las llaves ya estámos indicando/definiéndolo que es un set()
 print(type(my_other_set)) #Acá nos indica el tipo de dato que es set()
 
 #2.-ALGUNAS OPERACIONES QUE PODEMOS HACER CON LOS SETS:
@@ -23,13 +25,13 @@ print(len(my_other_set))#En set() podemos utilizar la operación a nivel sistema
 #4.-CARACTEÍSTICAS DE LOS SETS: 
 #4.1.-Acá estamos AÑADIENDO un nuevo dato al set().
 #4.1.1.-Primer característica de los set() ->Es desordenado!.
-my_other_set.add('MauroDev')
+my_other_set.add('CarolinaBezares')
 print(my_other_set) #Los imprime de manera desordenada pero porque los set() no guarda los datos de manera ordenada, por lo tanto esta es la primer diferencia
 #de los set() con los listados e indica que el set() no es un listado ya que los listados son ordenados.
 #Por lo tanto es imposible intentar acceder a los elemtos como lo hacíamos en las list() ya que no hay un control absoluto en cada uno de los elementos.
 
 #4.2.-Segunda característica los set() no admite elementos/datos repetidos!.
-my_other_set.add('Mauro Dev') #Acá estamos añadiendo nuevamente un nuevo elemento al set()
+my_other_set.add('Carolina Bezares') #Acá estamos añadiendo nuevamente un nuevo elemento al set()
 print(my_other_set) #Al imprimir podemos ver que solamente imprime/muestra un solo elemento de 'MauroDev' aunque anteriormente se añadio un elemento con el mismo nombre.
 #Esto se debe a que los set() no admiten datos/elementos repetidos.
 #Para permitir que no acepte/exista repetidos es más facíl a la estructura set() no guardar ese rato.
@@ -37,11 +39,11 @@ print(my_other_set) #Al imprimir podemos ver que solamente imprime/muestra un so
 
 #5.-COMPROBACIÓN DE LA EXISTENCIA DE UN ELEMENTO DENTRO DEL SET:
 #Nos da un True or False como resultado.
-print('Moure' in my_other_set) #Elemento que estamos pidiendi comprobar si está in/en el set().
-print('Mouri' in my_other_set)
+print('Carolina' in my_other_set) #Elemento que estamos pidiendi comprobar si está in/en el set().
+print('Caro' in my_other_set)
 
 #6.-ELIMINACIÓN DE DATOS:
-my_other_set.remove('Moure')
+my_other_set.remove('Carolina')
 print(my_other_set)
 
 #7.-LIMPIEZA DE ELEMENTOS DE LOS SETS-NO ELIMINA EL CONSTRUCTOR/VARIABLE DEL SET:
@@ -60,7 +62,7 @@ del my_other_set #Eliminación completa del set()
 
 #9.-TRANSFORMACIÓN DE UN SET A UNA LISTA:
 #Volvimos a crear la variable y sus elementos ya que anteriormente la limpiamos y también borramos.
-my_set = {'Brais', 'Moure', 35}
+my_set = {'Carolina', 'Bezares', 24}
 my_list = list(my_set)
 print(my_list) #Al pasarlo a una lista ya tenemos datos/elementos ordenados, por lo tanto ya podemos acceder a los elementos.
 print(my_list[0]) #Acá estamos accediendo a la posición de los elementos de a list() que contiene los datos ordenados de cuando era un set()

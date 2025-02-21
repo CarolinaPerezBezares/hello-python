@@ -1,4 +1,6 @@
 #TUPLES/TUPLAS:
+#Guarda elementos pero no se pueden retocar. -> son inmutables.
+
 #Las tuplas() son inmutables y si las utilizamos es porque queremos trabajar con valores constantes.
 #Si queremos trabajar con valores mutables entonces trabajamos con list()
 
@@ -12,7 +14,7 @@ my_other_tuple = () #Manera 2
 
 #2.-EJEMPLO DE UNA TUPLA:
 #Igualamos la tupla con los datos siguientes:
-my_tuple = (35, 1.77, 'Brais', 'Moure', 'Brais')
+my_tuple = (23, 1.57, 'Carolina', 'Bezares', 'Carolina')
 my_other_tuple = (35, 60 , 30)
 
 print(my_tuple)
@@ -28,12 +30,12 @@ print(my_tuple[-1]) #La función de pocisionarse con un número negativo es para
 
 #4.-INSERTAR VALORES Y REALIZAR OPERACIONES:
 #Las unicas dos operaciones que tenemos a realizar en las tuplas() son count() e index(), lo cual es una de las diferencias entre las listas y tupplas.
-print(my_tuple.count('Brais')) #4.1.-El count() tiene la misma función como en las listas que se le pasa un valor y revisa/cuenta en la tupla
+print(my_tuple.count('Carolina')) #4.1.-El count() tiene la misma función como en las listas que se le pasa un valor y revisa/cuenta en la tupla
 # para colocar el total de ese valor existente o revisar si existe/hay.
 
-print(my_tuple.index('Moure')) #4.2.-La función de index() es marcar el indice/posición del valor que hemos mencionado, en este caso 'Moure' 
+print(my_tuple.index('Bezares')) #4.2.-La función de index() es marcar el indice/posición del valor que hemos mencionado, en este caso 'Moure' 
 #que nos indica que se encuentra en la posición 3 empezando de 0 a 3.
-print(my_tuple.index('Brais'))
+print(my_tuple.index('Carolina'))
 
 '''
 5.-LAS TUPLAS SON INMUTABLES:
@@ -63,7 +65,7 @@ print(my_tuple)
 print(type(my_tuple))
 
 #8.1-Cambiamos nuestra tuppla() a una list() porque en realidad queríamos cambiar un valor de la tupla(). ->Este se hace en un caso muy necesario porque no se recomienda cambiar una tuppla.
-my_tuple[4] = 'MauroDev' #Estamos insertando un nuevo valor y posición a la tuppla()/list() -> La posición 4 no existía. 
+my_tuple[4] = 'CarolinaBezares' #Estamos insertando un nuevo valor y posición a la tuppla()/list() -> La posición 4 no existía. 
 print(my_tuple)
 my_tuple.insert(1, 'Azul') #Estamos diciendo que ahora en la posición 1 queremos que tenga otro valor 'Azul' ->Acá estamos recorriendo el valor a la siguient posición.
 print(my_tuple)

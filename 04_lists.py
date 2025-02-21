@@ -1,4 +1,6 @@
 #LIS/LISTAS:
+#Guarda elementos de uno en uno de forma ordenada. -> Estos se pueden modificar al ser muy accesibles.
+
 #Se refiere a que ya estamos hablando de una estrauctura para estructuras los datos.
 #array, arreglos, pilas: estás son las listas de nivel básico de programación pero en Python las listas son lo siguiente:
 #Son los arreglos pero no como tal es eso ya que los arreglos tienen ciertas limitaciones en operaciones y en las listas se puede hacer un poco más.
@@ -27,7 +29,7 @@ print(my_list)#Acá imprime los elementos que tenemos en la lista
 #No tenemos los elemtos solo para tener la longitud de ellos, si no para poder acceder a ellos.
 print(len(my_list))#Acá imprimimo lo que calcúlamos de la longitud de la lista.
 #1.3-Mezclar los datos:
-my_other_list = [35, 1.77, 'Brais', 'Moure']#No da problemas e indica que no hace falta que en la lista estemos guardando siempre el mismo tipo de dato
+my_other_list = [35, 1.77, 'Carolina', 'Bezares']#No da problemas e indica que no hace falta que en la lista estemos guardando siempre el mismo tipo de dato
 #1.4-Saber tipos de datos:
 print(type(my_other_list))#type() nos sirve para ayudar a saber que tipo de dato tenemos
 print(type(my_list))
@@ -40,7 +42,7 @@ print(my_other_list[1])
 print(my_other_list[-1])#Empieza de atrás hacía adelante
 print(my_other_list[-3])
 print(my_other_list[-4])
-print(my_other_list.count('Brais'))#Count() vació marca error por lo tanto debemos de ayudarlo pasando un parametro
+print(my_other_list.count('Carolina'))#Count() vació marca error por lo tanto debemos de ayudarlo pasando un parametro
 print(my_list.count(30))#Para contar elementos dentro de la propia lista se utiliza el count()
 #print(my_other_list[4]) IndexError: Se debe a que esa posición no existe ya que no hay un valor existente que ocupe el lugar.
 #print(my_other_list[-5]) IndexError
