@@ -23,7 +23,7 @@ print(my_scape_line_string)
 #COMO FORMATEAR DE ALGUNA FORMA LOS STRINGS:
 #El formateo se utiliza cuando estamos internacionalizando texto.
 #Ejemplo nuestro proyectos en inglés y español u otros idiomas, nos lo pone en el idioma que querramos.
-name , surname , age = 'Brais' , 'Moure' , 35
+name , surname , age = 'Carolina' , 'Bezares' , 24
 #ESTA MANERA ES LA IDEAL AL TENER MUCHOS DATOS POR MEJOR MANEJO DE DATOS:
 #Se utilizan las llaves cuando queremos que impriman tal cual el objeto:
 print('Mi nombre es {} {} y mi edad es {}'.format(name, surname, age)) #Esta es la manera para solamente strings
@@ -40,10 +40,8 @@ print('Mi nombre es' + name + '' + surname + 'y mi edad es' + str(age))#Al lengu
 #Se aconsejan las dos anteriores y más si vas a formatear los datos.
 
 #2.-INFERENCIA DE DATOS/INTERPOLACIÓN DE DATOS:
-print(f'Mi nombre es {name} {surname} y mi edad es {age}')#La f ayuda a formatear y a inferir el valor de cada una de las
-#variables.
-#Si queremos imprimir los datos tal cual de una manera rapida, si queremos formatear los datos la mejor manera es definir
-#el tipo de formato.
+print(f'Mi nombre es {name} {surname} y mi edad es {age}')#La f ayuda a formatear y a inferir el valor de cada una de las variables.
+#Si queremos imprimir los datos tal cual de una manera rapida, si queremos formatear los datos la mejor manera es definir el tipo de formato.
 
 #3.-DESEMPAQUETADO DE CARACTERES: NO SE RECOMIENDA POR DIFICULTAD DE MANEJO DE DATOS AL TENER MUCHOS
 lenguaje = 'Python' #Es una variable que la hemos llamado Python.-#Lenguaje tiene por valor cada una de las letras de la palabra de Python

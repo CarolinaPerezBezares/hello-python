@@ -45,20 +45,17 @@ print(type(my_int_to_str_variable))
 #UTILIZANDO UNA DE LAS FUNCIONES DEL SISTEMA:
 print(my_string_variable, str(my_int_variable),my_bool_variable)
 
-#Datos de print: El print es capaz de tomar todas las variables y acabar transformandolas a algo que sea posible imprimir por 
-#consola, o sea una cadena de texto: print().
+#Datos de print: El print es capaz de tomar todas las variables y acabar transformandolas a algo que sea posible imprimir por consola, o sea una cadena de texto: print().
 
 print(len(my_int_to_str_variable)) #Da de resultado 1
 print(len(my_string_variable)) #Da de resultado 18
-#Len es una abreviatura de 'Lenght' que significa longitud por lo tanto la función de 'len()' se encarga de contar
-#la cantidad total de los caractéres de las variables pero incluso cuenta incluyendo los espacios que hay.
+#Len es una abreviatura de 'Lenght' que significa longitud por lo tanto la función de 'len()' se encarga de contar la cantidad total de los caractéres de las variables pero incluso cuenta incluyendo los espacios que hay.
 
 #LOS print() TAMBIÉN PUEDEN RECIBIR PARAMETROS: 
 #También se le conoce como concatenar, no lo olvides y acá es un ejemplo de las muchas concatenaciones que existen.
 print(my_string_variable,my_int_variable,my_bool_variable)
 print('Este es el valor de mi variable boolean:', my_bool_variable) #Le metemos una cadena de texto ya prefijada/fija
-#Ojo:El texto va dentro de las comillas y si quieres poner el valor que va imprimir va una coma para
-# dividir/agregar un valor que va fuera de las comillas para que pueda reconocerlas como variables.
+#Ojo:El texto va dentro de las comillas y si quieres poner el valor que va imprimir va una coma para dividir/agregar un valor que va fuera de las comillas para que pueda reconocerlas como variables.
 
 #VARIABLES EN UNA SOLA LÍNEA:
 name, surname, alias, age = 'Carolina', 'Pérez', 'Caro', 23 #Se pueden mezclas tipos de datos
@@ -67,15 +64,14 @@ print('. -Mi nombre es:', name, surname, '. -Mi edad es:', age, '. -Y mi alías 
 #Solamente se recomienda al utilizar solo dos valores.
 
 #EJEMPLO DEL USO DEL INPUT:
-#Es un teclado en pantalla, lo cual no es tan recomendable ya que solo se puede si son aplicaciones/scripts o algo que ejecuten
-#trabjando directamente desde la terminal
+#Es un teclado en pantalla, lo cual no es tan recomendable ya que solo se puede si son aplicaciones/scripts o algo que ejecuten trabjando directamente desde la terminal
 '''''
 first_name = input('What is your name: ')
 age = input('How old are you? ')
 
 print(first_name)
 print(age)
-'''''
+'''
 #Termina al colocar el último dato pedido e imprime los datos que se han pedido.
 
 #CAMBIAMOS EL TIPO DE DATO:
@@ -83,8 +79,7 @@ name = 35
 age = 'Brais'
 print(name)
 print(age)
-#Hay que tener cuidado al asignar valores a las variables ya que Python acepta sin problemas los datos,
-#esto puede afectar a un futuro si estamos trabajando en un proyecto más grande y/o con más personas.
+#Hay que tener cuidado al asignar valores a las variables ya que Python acepta sin problemas los datos, esto puede afectar a un futuro si estamos trabajando en un proyecto más grande y/o con más personas.
 
 #FORZAMOS EL TIP?O:
 address: str = 'Mi dirección'
